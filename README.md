@@ -1,1 +1,1 @@
-# CV : https://ethnolatin.github.io/
+Mon CV réalisé en HTML & CSS (responsive)
