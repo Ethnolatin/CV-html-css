@@ -80,6 +80,21 @@ ul {
 header {
     display: flex;
     flex-wrap: wrap;
+    position: relative;
+}
+
+.portfolio {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 4.6rem;
+    right: 2.6rem;
+    align-items: center;
+    font-size: 1.2rem;
+}
+
+.portfolio .fas {
+    padding: 0;
 }
 
 /* -------- Header - Section left -------- */
