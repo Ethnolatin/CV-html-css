@@ -84,12 +84,17 @@ header {
 }
 
 .portfolio {
+    cursor: pointer;
     display: flex;
     flex-direction: column;
     position: absolute;
-    top: 4.6rem;
+    top: 6.5rem;
     right: 2.6rem;
     align-items: center;
+    border: 1px solid #4E342E;
+    border-radius: 0.3rem;
+    background-color: lightGray;
+    padding: 0.5rem;
     font-size: 1.2rem;
 }
 
