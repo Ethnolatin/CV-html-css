@@ -24,7 +24,7 @@ h1 {
     font-family: Helvetica-Thin, sans-serif;
     font-weight: normal;
     font-size: 3rem;
-    padding: 0 4rem;
+    padding: 0 2.6rem;
     border: none;
 }
 
@@ -143,7 +143,7 @@ header h2 {
     display: table;
     margin: 0;
     border-bottom: 0;
-    padding: 0 4rem;
+    padding: 0 2.6rem;
     text-transform: none;
     color: #7CB342;
     font-size: 1.5rem;
@@ -159,7 +159,7 @@ header h2:after {
 }
 
 header h3 {
-    padding: 0 4rem;
+    padding: 0 2.6rem;
     font-style: italic;
     letter-spacing: 0.1rem;
 }
@@ -221,7 +221,7 @@ main {
     border: solid 2px white;
 }
 
-.skill {
+section {
     letter-spacing: 0.05rem;
 }
 
@@ -321,8 +321,12 @@ main .right {
         width: 100%;
     }
 
-    header h1, header h2, header h3 {
+    header h1, header h2, header h3, .left div {
         padding: 0 1.5rem;
+    }
+
+    .right article {
+        padding: 1rem 1.5rem;
     }
 
     .element {
