@@ -107,11 +107,8 @@ header {
   border: 1px solid #4e342e;
   border-radius: 0.3rem;
   background-color: lightGray;
-  padding: 0.5rem;
+  padding: 0.3rem;
   font-size: 1.2rem;
-}
-
-.portfolio {
   text-decoration: none;
   color: #4e342e;
 }
@@ -318,6 +315,9 @@ main .right {
   main .right {
     width: 100%;
   }
+  .portfolio {
+    top: 8.2rem;
+  }
 }
 
 @media all and (max-width: 768px) {
@@ -343,7 +343,7 @@ main .right {
 
   .portfolio {
     right: 0.2rem;
-    top: 8rem;
+    top: 8.5rem;
   }
 
   .flags {
