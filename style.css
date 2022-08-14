@@ -230,9 +230,9 @@ section {
 
 /* -------- Main - Section right -------- */
 
-main .right {
-  margin-bottom: 4rem;
-}
+/* main .right {
+  margin-bottom: 1rem;
+} */
 
 .right article {
   padding: 1rem 2.6rem;
